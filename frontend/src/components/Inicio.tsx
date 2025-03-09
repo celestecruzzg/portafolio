@@ -5,17 +5,17 @@ import { IoIosPin } from 'react-icons/io'
 export default function Inicio () {
     return (
         <>
-        <div id='inicio' className='flex flex-col justify-center items-center py-18 my-12 text-[var(--text-black)]'>
+        <div id='inicio' className='flex flex-col justify-center items-center py-16 my-12 text-[var(--text-black)]'>
             <img
                 src={Foto}
-                className="rounded-full w-72  outline-offset-4 outline-double outline-sky-600"
+                className="rounded-full w-64  outline-offset-4 outline-double outline-sky-600"
                 alt=""
             />
             <div className='flex-col py-5 text-center max-w-2xl'>
-                <h1 className='font-semibold text-5xl'>
+                <h1 className='font-semibold text-4xl'>
                     ¡Hola, soy <span className='text-sky-600'>Celeste Cruz!</span>
                 </h1>
-                <p className='py-3 text-lg'>
+                <p className='py-3 text-base'>
                     Desarrolladora de software fullstack, con experiencia en el desarrollo 
                     de aplicaciones web.
                 </p>
