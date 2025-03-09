@@ -9,7 +9,7 @@ export default function Principal() {
     return (
         <div className="min-h-screen flex flex-col">
             <Navbar />
-            <main className="flex flex-col gap-14 px-4 md:px-8 lg:px-16">
+            <main className="flex flex-col gap-10 px-4 md:px-8 lg:px-16">
                 <Inicio />
                 <Habilidades />
                 <Proyectos />

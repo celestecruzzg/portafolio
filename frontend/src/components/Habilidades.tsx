@@ -8,7 +8,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function Habilidades() {
   return (
-    <section id="habilidades" className="px-12 md:px-12 py-16 my-12 text-[var(--text-black)]">
+    <section id="habilidades" className="px-12 md:px-12 py-20 my-4 text-[var(--text-black)]">
       <h2 className="font-semibold text-2xl text-center md:text-left">Habilidades</h2>
       <span className="block font-light text-sm text-slate-500 text-center md:text-left">
         Stack de tecnologías y herramientas que domino.

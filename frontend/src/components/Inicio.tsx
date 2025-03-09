@@ -5,7 +5,7 @@ import { IoIosPin } from 'react-icons/io'
 export default function Inicio () {
     return (
         <>
-        <div id='inicio' className='flex flex-col justify-center items-center py-14 my-12 text-[var(--text-black)]'>
+        <div id='inicio' className='flex flex-col justify-center items-center py-14 my-4 text-[var(--text-black)]'>
             <img
                 src={Foto}
                 className="rounded-full w-64  outline-offset-4 outline-double outline-sky-600"
