@@ -3,7 +3,7 @@ import Foto from '../assets/images/acerca.svg'
 export default function Acerca () {
     return (
         <>
-        <section id="#acerca" className="px-12 py-12 text-[var(--text-black)]">
+        <section id="acerca" className="px-12 py-12 text-[var(--text-black)]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 className="font-semibold text-2xl">Acerca de mí</h2>

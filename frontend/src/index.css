@@ -4,13 +4,73 @@
 :root{
   --text-black: #303030;
 
-  /*Iconos*/
+  /*Redes*/
   --facebook: #0866ff;
   --instagram: #E1306C;
   --linkedin: #0077b5;
   --github: #6e5494;
+
+  /*Tecnologías*/
+  --html: #E34F26;
+  --css: #1572B6;
+  --js: #F7DC6F;
+  --ts: #2B7489;
+  --react: #61DAFB;
+  --tailwind: #38BDF8;
+  --bootstrap: #7952B3;
+
+  --php: #4F5D95;
+  --csharp: #5d239a;
+  --node: #3c873a;
+  --nest: #c1340d;
+  --dotnetcore: #5c6bc0;
+  --mysql: #4479a1;
+  --sqlserver: #ba0d0d;
+
+  --shell: #7f7f7f;
+  --git: rgb(239, 45, 6);
+  --npm: #cb3837;
+  --vsc: #007ACC;
+  --vs: #5c2d91;
+
+  --windows: #1e88ec;
+  --ubuntu: #e65a03;
+  --manjaro: #02ad30;
+
+  --python: #1e40af;
+  --fastapi: #009688;
 }
 
 * {
   font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up{
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.animation-efect{
+  --animation-duration: 1200ms;
+  animation: fade-in var(--animation-duration), slide-up var(--animation-duration) ease-in-out 0s 1 normal none;
 }
