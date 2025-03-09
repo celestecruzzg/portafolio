@@ -1,4 +1,4 @@
-import { FaPython, FaReact } from 'react-icons/fa'
+import { FaReact } from 'react-icons/fa'
 import Itzamna from '../assets/images/itzamna.png'
 import { SiFastapi, SiMysql, SiTypescript } from 'react-icons/si'
 import { RiTailwindCssFill } from 'react-icons/ri'
