@@ -13,7 +13,7 @@ export default function Inicio () {
             />
             <div className='flex-col py-5 text-center max-w-2xl'>
                 <h1 className='font-semibold text-4xl'>
-                    ¡Hola, soy <span className='text-sky-600'>Celeste Cruz!</span>
+                    ¡Hola, soy <span className='text-sky-600'>Celeste Cruz</span>!
                 </h1>
                 <p className='py-3 text-base'>
                     Desarrolladora de software fullstack, con experiencia en el desarrollo 
