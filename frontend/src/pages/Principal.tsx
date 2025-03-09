@@ -5,27 +5,17 @@ import Inicio from "../components/Inicio";
 import Navbar from "../components/Navbar";
 import Proyectos from "../components/Proyectos";
 
-export default function Principal () {
+export default function Principal() {
     return (
-        <>
-        <div className="min-h-screen">
-            <Navbar/>
-            <div className="">
-                <Inicio/>
-            </div>
-            <div className="mt-14">
-                <Habilidades/>
-            </div>
-            <div className="mt-14">
-                <Proyectos/>
-            </div>
-            <div className="mt-14">
-                <Acerca/>
-            </div>
-            <div className="mt-14">
-                <Footer/>
-            </div>
+        <div className="min-h-screen flex flex-col">
+            <Navbar />
+            <main className="flex flex-col gap-14 px-4 md:px-8 lg:px-16">
+                <Inicio />
+                <Habilidades />
+                <Proyectos />
+                <Acerca />
+            </main>
+            <Footer />
         </div>
-        </>
-    )
+    );
 }

@@ -5,7 +5,7 @@ import { IoIosPin } from 'react-icons/io'
 export default function Inicio () {
     return (
         <>
-        <div id='inicio' className='flex flex-col justify-center items-center py-16 my-12 text-[var(--text-black)]'>
+        <div id='inicio' className='flex flex-col justify-center items-center py-14 my-12 text-[var(--text-black)]'>
             <img
                 src={Foto}
                 className="rounded-full w-64  outline-offset-4 outline-double outline-sky-600"
@@ -21,16 +21,16 @@ export default function Inicio () {
                 </p>
                 <div className='flex justify-center items-center max-w-2xl gap-8 mt-2 animation animation-efect'>
                     <a href="https://github.com/celestecruzzg" target='_blank'>
-                        <FaGithub className='text-3xl hover:text-[var(--github)]' />
+                        <FaGithub className='text-3xl text-[var(--github)]' />
                     </a>
                     <a href="https://www.linkedin.com/in/celeste-gonzalez-cruz-06d122004" target='_blank'>
-                        <FaLinkedin className='text-3xl hover:text-[var(--linkedin)]' />
+                        <FaLinkedin className='text-3xl text-[var(--linkedin)]' />
                     </a>
                     <a href="https://www.facebook.com/celestecruzzg" target='_blank'>
-                        <FaFacebook className='text-3xl hover:text-[var(--facebook)]' />
+                        <FaFacebook className='text-3xl text-[var(--facebook)]' />
                     </a>
                     <a href="https://www.instagram.com/celeste_cruzzg" target='_blank'>
-                        <FaInstagram className='text-3xl hover:text-[var(--instagram)]' />
+                        <FaInstagram className='text-3xl text-[var(--instagram)]' />
                     </a>
                 </div>
                     <span className='flex justify-center items-center mt-6 gap-3 animation animation-efect'>
