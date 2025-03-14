@@ -1,5 +1,5 @@
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import Foto from '../assets/images/celeste.png'
+import Foto from '../assets/images/celeste.jpg'
 import { IoIosPin } from 'react-icons/io'
 
 export default function Inicio () {
