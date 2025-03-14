@@ -26,7 +26,7 @@ export default function Proyectos() {
                                 <span className="text-xs text-slate-500">ReactJS</span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <SiTypescript className="text-3xl text-[var(--ts)]"/>
+                                <SiTypescript className="text-4xl text-[var(--ts)]"/>
                                 <span className="text-xs text-slate-500">TypeScript</span>
                             </div>
                             <div className="flex flex-col items-center">
